@@ -1,3 +1,5 @@
+package homeworks.hw_1;
+
 public class Area {
 
     public double calculate(int N) {
