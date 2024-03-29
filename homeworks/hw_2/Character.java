@@ -5,7 +5,7 @@ public class Character {
     private int health;
     private int armor;
 
-    public Character(String name, int health int armor) {
+    public Character(String name, int health, int armor) {
         this.name = name;
         this.health = health;
         this.armor = armor;
@@ -21,6 +21,10 @@ public class Character {
 
     public int getHealth() {
         return health;
+    }
+
+    public void setHealth(int currentHealth) {
+        this.health = currentHealth;
     }
 
     public int getArmor() {
